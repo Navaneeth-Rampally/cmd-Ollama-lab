@@ -1,4 +1,4 @@
-⚙️ Execution Process with Ollama 
+**Execution Process with Ollama** 
 
 
 **What is Ollama**
@@ -23,46 +23,48 @@
 (If you see a port binding error, it means the daemon is already running.)
 
 **Common Commands and Usage**
-serve - Start ollama
 
 
-create - Create a model
+**serve** - Start ollama
 
 
-show - show information for a model
+**create** - Create a model
 
 
-run - run a model 
+**show** - show information for a model
 
 
-stop - stop running a model 
+**run** - run a model 
 
 
-pull - pull a model from a registry 
+**stop** - stop running a model 
 
 
-push - push a model from a registry 
+**pull** - pull a model from a registry 
 
 
-signin - signin to ollama.com
+**push** - push a model from a registry 
 
 
-signout - signout from ollama.com 
+**signin** - signin to ollama.com
 
 
-list - list models 
+**signout** - signout from ollama.com 
 
 
-ps - list running models 
+**list** - list models 
 
 
-rm - remove a model which is installed 
+**ps** - list running models 
 
 
-launch - launch an integration with ollama 
+**rm** - remove a model which is installed 
 
 
-help - help about any command 
+**launch** - launch an integration with ollama 
+
+
+**help** - help about any command 
 
 
 
