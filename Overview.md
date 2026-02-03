@@ -1,36 +1,70 @@
-⚙️ Execution Process with Ollama /
+⚙️ Execution Process with Ollama 
 
 
-**What is Ollama** /
+**What is Ollama**
+
+
 -Ollama is a lightweight framework for running large language models (LLMs) locally. It manages models, authentication, and background processes through a daemon.
 
-**What is Daemon?** /
+**What is Daemon?**
+
+
 -The daemon is a computer program that runs in background, without a user interface or command line interface.
 -In simple, it is the server that does the work.
 - On Windows, Ollama runs automatically in the background when you use commands like ollama run.
 - You interact with Ollama entirely through the command line interface (CLI).
 
-**Starting Ollama** /
+**Starting Ollama**
+
+
 - Normally, the daemon starts automatically when you run any Ollama command.
 - To start manually:
     -> ollama serve
 (If you see a port binding error, it means the daemon is already running.)
 
 **Common Commands and Usage**
-serve - Start ollama /
-create - Create a model /
-show - show information for a model /
-run - run a model /
-stop - stop running a model /
-pull - pull a model from a registry /
-push - push a model from a registry /
-signin - signin to ollama.com /
-signout - signout from ollama.com /
-list - list models /
-ps - list running models /
-rm - remove a model which is installed /
-launch - launch an integration with ollama /
-help - help about any command /
+serve - Start ollama
+
+
+create - Create a model
+
+
+show - show information for a model
+
+
+run - run a model 
+
+
+stop - stop running a model 
+
+
+pull - pull a model from a registry 
+
+
+push - push a model from a registry 
+
+
+signin - signin to ollama.com
+
+
+signout - signout from ollama.com 
+
+
+list - list models 
+
+
+ps - list running models 
+
+
+rm - remove a model which is installed 
+
+
+launch - launch an integration with ollama 
+
+
+help - help about any command 
+
+
 
 **Example Workflow**
 # 1. Pull a model
