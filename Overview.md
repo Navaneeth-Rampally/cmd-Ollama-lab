@@ -69,37 +69,35 @@
 
 
 **Example Workflow**
-# 1. Pull a model
+
+
+**1. Pull a model**
 ollama pull llama2
 
-# 2. Run interactively
+**# 2. Run interactively**
 ollama run llama2
 
-# 3. Exit session
+**# 3. Exit session**
 /bye   # or Ctrl+C
 
-# 4. Check running processes
+**# 4. Check running processes**
 ollama ps
 
-# 5. Stop model if still active
+**# 5. Stop model if still active**
 ollama stop llama2
 
-# 6. List installed models
+**# 6. List installed models**
 ollama list
 
 
 
 **Learnings & Takeaways**
-- Using Hugging Face models in Python
-- Generating & managing access tokens securely
-- Integrating Hugging Face with local environments
-- Connecting Google Colab with VS Code for flexible workflows
-- Launching Gradio apps directly from notebooks
-- Running and managing Ollama models locally with CLI commands
 
-**Future Improvements**
-- Add support for multiple Hugging Face models (text, vision, audio)
-- Dockerize the application for easier deployment
-- Extend authentication setup for production environments
-- Enhance UI with custom Gradio components
-- Explore advanced Ollama workflows with custom models
+**Client-Server Architecture:** Understanding how the Daemon acts as a background server while the CLI functions as the client—a crucial concept for debugging local AI.
+
+
+**Resource Management:** Learning how to manage RAM and GPU usage when swapping between different model sizes (e.g., 7B vs. 13B parameters).
+
+
+**Process Control:** Mastering CLI commands like ps, kill, and serve to manually control model instances and resolve port binding errors.
+
